@@ -1,0 +1,17 @@
+.header {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    width:40%;
+    
+  }
+  
+  .header-title {
+    background-color: blue;
+
+    color: black;
+    font-size: 24px;
+  }
+  .root{
+    height: 100%;
+  }
