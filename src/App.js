@@ -16,7 +16,7 @@ function App() {
     <Routes>
         <Route path="/" element={ <LoginForm/> } />
         <Route path="RegisterForm" element={ <RegisterForm/> } />
-        <Route path="CarGrid" element={<CarGrid/>}/>
+        <Route path="CarGrid/:username" element={<CarGrid/>}/>
         <Route path="CarsTest" element={<CarsTest/>}/>      
         <Route path="UserList" element={<UserList/>}/>
         <Route path="BackOffice" element={<BackOffice/>}/>

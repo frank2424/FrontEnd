@@ -4,7 +4,7 @@ import { Link,useNavigate } from "react-router-dom";
 //https://localhost:7079/api/User/login?username=${formData.username}&password=${formData.password} <------------login request
 
 
-const LoginForm = ({user_id}) => {
+const LoginForm = ({username}) => {
   const  navigate=useNavigate();
   const [formData, setFormData] = useState({
     username: "",
@@ -50,7 +50,7 @@ const LoginForm = ({user_id}) => {
           }
           else{
            //  navigate('CarGrid);
-            navigate(`CarGrid` ,{ state: { user_id: user_id } });
+            navigate(`CarGrid/${formData.username}` , );
 
           }
         }
